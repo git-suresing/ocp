@@ -1,5 +1,6 @@
  
 ########## Switch to Root User###########
+
 sudo -i
 
 # Install Docker ######
