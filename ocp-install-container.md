@@ -1,11 +1,12 @@
  
-#Switch to Root User###########
+#Switch to Root User ###########
 
 sudo -i
 
 # Install Docker ######
 
 sudo yum -y install docker
+
 systemctl enable docker
 
 cat << EOF >/etc/docker/daemon.json
