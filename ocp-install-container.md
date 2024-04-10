@@ -1,5 +1,5 @@
  
-########## Switch to Root User###########
+#Switch to Root User###########
 
 sudo -i
 
@@ -31,7 +31,8 @@ firewall-cmd --reload
 yum -y install centos-release-openshift-origin39
 yum -y install origin-clients
 
-######## Install the Cluster ########
+
+# Install the Cluster ########
 
 oc cluster up --version=v3.9.0 --public-hostname=172.28.234.5
 
